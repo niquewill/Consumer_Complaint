@@ -1,2 +1,19 @@
-# Consumer_Complaint
-Overview There are quite a few apps in the market that provide a public forum for bringing up complaints so they can get resolved. With these apps, customers could easily submit their complaints to companies via them and deliver them to the company's' Twitter account, e-mail, or Facebook accounts.  For the receiving companies, there are limited apps in the market that would help them to track these complaints, and store vital statistics such as receipt time, response time and trends. Typically, for a CEO, the behavior of the customers established by robust data and ability to relate company’s response to trends in the customer's’ behavior provide effective ways to evaluate customer’s satisfaction. The problem that this project seeks to solve is to provide organizations with a tool to log the complaints they receive and the company’s response mechanism. The database created will assist the company in generating data for future consumer behavioral analysis. Goals The Consumer Complaint app will enable organizations staff to log complaints from customers as ticket items and close the tickets from the complaint's inventory.  The app should also be able to track response time, volume of complaint across the company’s departments (product &amp; services), regional trend and then provide a summary of the highest-frequency departments and regions of the company.  Specifications The app would be tested for financial institutions. Example input could be drawn from the website of the consumer financial protection bureau (CFPB) : Consumer Complaint Data  Milestones Database Create a MySQL Database (and a table inside database) to log complain ID, Product &amp; Services, Department and Time of complaint.   Create a Mongo DB (NoSQL) to scrape part of the complaint from the CFPB website and display it on the browser. Backend Node.js Create a node application which will display all of the complaints that are logged  Whenever the bank administrator submits (logs in a complaint), the app will display “new complaint logged” on one side of the page: waiting to be closed.  Each ticket in the unclosed bucket would have a “close” button. Once the ticket is closed, the administrator will click it and the app will move it to the closed bucket and refresh the number of tickets unattended to.   A table would be created for the supervisor or department manager to view the Response Receipt Date/ Time, Number of Complaints per day, Category of Complaint (Product &amp; Services), Response Closing Date and Time.  Frontend Materialize Create a stylish UI using Materialize CSS. Make the app to be mobile responsive. Themes examples: Starter. Parallax The signup and login page will use Bootstrap modal Express Handlebars/ Partials will be used to render the Backend and the frontend React.js Create a chat application with node.js, socket.io and React.Js
+# Resolve: A Consumer Complaint App
+
+## Overview
+
+## CHART RENDERING
+## Things Required
+In order to render the manager's dashboard which contains various charts, the following are required:
+
+Run npm init to create package.json file.
+
+  * We need to install Node.js
+  * Install ExpressJS using $ npm install express (This will create the file node modules) and
+  * Install MongoDB
+
+Other processes required include:
+  * To populate data in MongoDB
+  * To create REST API for data retrieval
+  * To create views for rendering the chart
+  * and to download the source code
