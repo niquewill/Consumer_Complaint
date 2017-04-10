@@ -1,0 +1,27 @@
+<div id="table-location">
+
+</div>
+<br/>
+<!-- Location where the chart will be added -->
+<div id="chart-location">
+
+</div>
+<script id="tabular-template" type="text/html">
+<h2>Tabular Data</h2>
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <td>Month</td>
+      \{{#each categories}} <td>\{{label}}</td> \{{/each }}
+    </tr>
+  </thead>
+  <tbody>
+    \{{#each dataset}}
+    <tr>
+      <td>\{{seriesname}}</td>
+      \{{#each data}} <td>\{{value}}</td> \{{/each}}
+    </tr>
+    \{{/each}}
+  </tbody>
+</table>
+</script>
