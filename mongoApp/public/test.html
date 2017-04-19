@@ -1,0 +1,51 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<title></title>
+ 	 <!-- ... -->
+     <script type="text/javascript" src="C:/Users/OWNER/Google Drive/Bootcamp/Workspace/project_3/Consumer_Complaint/Consumer_Complaint/mongoApp/public/bower_components/jquery/dist/jquery.min.js"></script>
+     <script type="text/javascript" src="C:/Users/OWNER/Google Drive/Bootcamp/Workspace/project_3/Consumer_Complaint/Consumer_Complaint/mongoApp/public/bower_components/moment/min/moment.min.js"></script>
+     <!-- Latest compiled and minified JavaScript -->
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+     <script type="text/javascript" src="C:/Users/OWNER/Google Drive/Bootcamp/Workspace/project_3/Consumer_Complaint/Consumer_Complaint/mongoApp/public/bower_components/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
+     <link rel="stylesheet" href="C:/Users/OWNER/Google Drive/Bootcamp/Workspace/project_3/Consumer_Complaint/Consumer_Complaint/mongoApp/public/bower_components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+   
+     
+ </head>
+ <body>
+ <div class="container">
+    <div class="row">
+        <div class='col-sm-6'>
+            <div class="form-group">
+                <div class='input-group date' id='datetimepicker5'>
+                    <input type='text' class="form-control" />
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                </div>
+            </div>
+        </div>
+        </div>
+		 <input type="submit">
+		   <a href="/complaints">See User complaints!</a>
+		   <a href="/user">See User profile!</a>
+		   <a href="/populateduser">See User profile, populated with complaints!</a>
+       
+    </div>
+ </body>
+  <script type="text/javascript">
+            $(function () {
+                $('#datetimepicker5').datetimepicker({
+                    defaultDate: "11/1/2013",
+                    disabledDates: [
+                        moment("12/25/2013"),
+                        new Date(2013, 11 - 1, 21),
+                        "11/22/2013 00:53"
+                    ]
+                });
+            });
+   </script>
+ </html>
+
+ 

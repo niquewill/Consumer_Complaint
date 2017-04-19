@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Consumer ReactApp!</title>
+
+	<!-- Here we include bootstrap. This will be made available to all of the generated HTML/JS that React generates-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"/>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.js"></script>  
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.5.0/react.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.5.0/react-dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="http://yourwebsite.com:12345/socket.io/socket.io.js"></script>
+</head>
+
+<body>
+	<div class="container">
+	  <div class="row">
+	  	<div class="Jumbotron text-center">
+	  	  <h1>Here, you can lodge your complaint</h1>
+	    </div>
+	  </div>
+	  <div class="row">
+	    <div class="text-center">
+	    	<iframe width="640" height="360" src="https://www.youtube.com/embed/wCfUKkMGeKE"></iframe>
+	    </div>	
+	  </div>
+	</div>	  
+	<!-- This is where React will deploy the contents it generates -->
+	<div id="app"></div>
+
+	<!-- All of our JS code will be transpiled into this bundle.js file -->
+	<script src="http://localhost/socket.io/socket.io.js"></script>
+	<script src="bundle.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+[
+  {
+    "month": "Jan", "petrol" : 64.72, "diesel": 52.49
+  },
+  {
+    "month": "Feb", "petrol" : 62.81, "diesel": 50.72
+  },
+  {
+    "month": "Mar", "petrol" : 66.18, "diesel": 54.06
+  },
+  {
+    "month": "Apr", "petrol" : 65.17, "diesel": 51.74
+  },
+  {
+    "month": "May", "petrol" : 72.94, "diesel": 57.23
+  },
+  {
+    "month": "Jun", "petrol" : 73.77, "diesel": 55.83
+  },
+  {
+    "month": "Jul", "petrol" : 70.7, "diesel": 52.59
+  },
+  {
+    "month": "Aug", "petrol" : 66.72, "diesel": 47.54
+  },
+  {
+    "month": "Sept", "petrol" : 64.61, "diesel": 47.02
+  }
+]
