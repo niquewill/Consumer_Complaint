@@ -1,0 +1,38 @@
+[
+  {
+    "month": "Apr", "Logged Complaints" : 811, "Resolved Complaints": 634
+  },
+  {
+    "month": "May", "Logged Complaints" : 738, "Resolved Complaints": 566
+  },
+  {
+    "month": "June", "Logged Complaints" : 795, "Resolved Complaints": 623
+  },
+  {
+    "month": "July", "Logged Complaints" : 719, "Resolved Complaints": 583
+  },
+  {
+    "month": "Aug", "Logged Complaints" : 870, "Resolved Complaints": 711
+  },
+  {
+    "month": "Sept", "Logged Complaints" : 881, "Resolved Complaints": 706
+  },
+  {
+    "month": "Oct", "Logged Complaints" : 829, "Resolved Complaints": 674
+  },
+  {
+    "month": "Nov", "Logged Complaints" : 758, "Resolved Complaints": 622
+  },
+  {
+    "month": "Dec", "Logged Complaints" : 741, "Resolved Complaints": 541
+  },
+  {
+    "month": "Jan", "Logged Complaints" : 790, "Resolved Complaints": 337
+  },
+  {
+    "month": "Feb", "Logged Complaints" : 734, "Resolved Complaints": 2
+  },
+  {
+    "month": "Mar", "Logged Complaints" : 729, "Resolved Complaints": 0
+  }
+]
