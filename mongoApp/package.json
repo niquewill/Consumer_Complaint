@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.17.1",
-    "express": "^4.15.2",
+    "express": "^4.17.3",
     "mongodb": "^2.2.25",
     "mongojs": "^2.4.0",
     "mongoose": "^4.9.3",
